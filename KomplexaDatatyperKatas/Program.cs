@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using KomplexaDatatyperKata;
 
 namespace KomplexaDatatyperKatas
 {
@@ -6,6 +8,9 @@ namespace KomplexaDatatyperKatas
     {
         static void Main(string[] args)
         {
+            List<Kund> nameList = new List<Kund>();
+
+
             while (true)
             {
                 Console.Clear();
@@ -25,7 +30,8 @@ namespace KomplexaDatatyperKatas
 
                 if (choice == 1)
                 {
-
+                    nameList.Add(new Kund("El_cykel"));
+                    Console.WriteLine("nameList");
                 }
                 else if (choice == 2)
                 {
@@ -37,5 +43,7 @@ namespace KomplexaDatatyperKatas
                 }
             }
         }
+       
     }
+    
 }

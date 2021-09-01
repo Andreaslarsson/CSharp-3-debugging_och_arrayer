@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KataSolutions", "KataSoluti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KomplexaDatatyperKata", "KomplexaDatatyperKatas\KomplexaDatatyperKata.csproj", "{F819C80A-E7B8-4819-BDB4-1AECF0219B14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "orders", "orders\orders.csproj", "{A4DBDB63-AE20-4AD1-AD65-F3466BDA9909}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F819C80A-E7B8-4819-BDB4-1AECF0219B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F819C80A-E7B8-4819-BDB4-1AECF0219B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F819C80A-E7B8-4819-BDB4-1AECF0219B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4DBDB63-AE20-4AD1-AD65-F3466BDA9909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DBDB63-AE20-4AD1-AD65-F3466BDA9909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DBDB63-AE20-4AD1-AD65-F3466BDA9909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DBDB63-AE20-4AD1-AD65-F3466BDA9909}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
